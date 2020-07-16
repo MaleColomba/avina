@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+	padding: 2px;
+	font-family: "Segoe IU", sans-serif;
+	/*background-color: #BEFF7C;*/
+}
+
+/* ***************************** inicio-widget-catergorias  ******************************************** */
+
+.mis-categorias{
+width: 39%;
+height: 20px;
+background-color: green;
+padding: 17px;
+margin-bottom: 4px;
+text-align: center;
+text-transform: uppercase;
+font-family: ‘Open Sans’, Arial;
+font-size: 1.2em;
+color: #fff;
+
+}
+
+.mis-categorias a{
+color: #fff;
+text-decoration: none;
+}
+
+.mis-categorias a:hover{
+color: #fff;
+}
+
+.mis-categorias:hover{
+background-color: #FF5733;
+}
+
+ /* ***************************** inicio-widget-catergorias  ******************************************** */
+ 
+h1{
+	border: 2px solid;
+	text-align: right;
+	background-color: white;
+	color: black;
+	padding: 10px 0;
+
+}
+
+header{
+	background-image: url("../img/imagen3.jpg");
+	height: 166px;
+	width: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	/*margin-top: 3px;*/
+	width: 56.5vw;
+	float: right;
+	border: 1px solid;
+}
+
+
+#img{
+	height: 250px;
+	width: 500px;
+	display: block;
+	position: absolute;
+	top: 250px;
+	left: 790px;
+	border: 1px solid;
+}
+
+#img0{
+	height: 250px;
+	width: 500px;
+	display: block;
+	position: absolute;
+	top: 580px;
+	left: 650px;
+	border: 1px solid;
+}
+
+#img1{
+	height: 290px;
+	width: 250px;
+	display: block;
+	position: absolute;
+	top: 620px;
+	left: 280px;
+	border: 1px solid;
+}
+
+#logo{
+	height: 150px;
+	width: 150px;
+	display: block;
+	position: absolute;
+	top: 130px;
+	left: 690px;
+}
+
+#logo0{
+	height: 500px;
+	width: 500px;
+	display: block;
+	position: absolute;
+	top: 320px;
+	left: 360px;
+	opacity: 0.2;
+}
+
+#main{
+	margin: 0px;
+	padding: 10px;
+	height: 700px;
+	width: 1325px;
+	background-color: #A8D9FF ;
+	line-height: 2.0;
+
+}
+
+#li{
+	margin: 0px;
+	margin-left: 3px;
+	padding: 10px;
+
+}
+
+#div{
+	margin: 0px;
+	padding: 0px;
+	/*height: 420px;*/
+	width: 570px;
+	line-height: 2.0;
+
+}
+
+#h2{
+	width: 42%;
+	border: 2px solid black;
+	text-align: center;
+	color: white;
+	background-color: #0B426C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

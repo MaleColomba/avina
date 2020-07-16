@@ -1,0 +1,94 @@
+:root{
+	--main-color: #1782D4;
+	--text-color: #FFFFFF; /*variables de colores*/
+
+}
+
+body{
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif; /* damos varias fuentes x si la pagina no puede leer la primera o la segunda*/
+
+}
+
+#contenedor{
+	display: grid;
+	height: 100vh;
+	width: 100vw;
+	/*grid-template-columns: auto auto auto; -- aca ponemos tantos autos como celdas se quieran poner una al lado de la otra*/
+	/*esto hace que las celdas esten una al lado de la otra*/
+	grid-template-columns: repeat(3, 100px);
+	grid-template-rows: repeat(5, 100px);
+	grid-gap: 10px;
+	justify-content: center; /*start, center, end, space-between, space around*/
+	align-content: center;
+
+}
+
+#contenedor>div{
+	display: flex; /*hace que lo de adentro este centrado*/
+	justify-content: center;
+	align-items: center;
+	background: var(--main-color); /*variable*/
+	font-weight: bold; /*negrita*/
+	font-size: 150%; /*hace a la fuente más grande*/
+	border-radius: 10px; /*borde de las celdas*/
+	color: var(--text-color); /*variable*/
+	border: 2px solid black;
+	
+}
+
+#contenedor>div:nth-child(8){
+	background-color: green;
+	
+}/*first-child, nth-child(n), last-child*/
+
+#contenedor>div:nth-child(5)::before{
+	content: ':D_';
+	/*
+	color: pink;
+	font-size: 90%;
+	*/
+	
+}
+
+#contenedor>div:first-child{
+	background-color: pink;
+	grid-row: 3;
+	grid-column: 2 / span 2;
+	
+}/*start-child, nth-child(n), last-child*/
+
+#contenedor>div:last-child{
+	background-color: red;
+	grid-row: 2 / span 3;
+	
+}/*start-child, nth-child(n), last-child*/
+
+#contenedor>div:hover{
+	background-color: orange;
+	cursor: pointer; /* https://www.w3schools.com/cssref/pr_class_cursor.asp */
+	transform: scale(2); /* .5 - 2 - 3 - 6 - etc 
+						tambien se puede con numero negativos porque los da vuelta
+						rotate(90deg)*/
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
